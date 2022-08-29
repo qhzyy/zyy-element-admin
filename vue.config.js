@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: '/',
+  publicPath: '/zyy-element-admin/',
   transpileDependencies: true
 })
