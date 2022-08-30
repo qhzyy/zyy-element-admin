@@ -54,13 +54,13 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="scss">
 /* 修复input 背景不协调 和光标变色 */
-@bg: #283443;
-@light_gray: #fff;
-@cursor: #fff;
+$bg: #283443;
+$light_gray: #fff;
+$cursor: #fff;
 body{
-  background-color:@bg;
+  background-color:$bg;
 }
 /* reset element-ui css */
 .app-login {
@@ -74,13 +74,13 @@ body{
       -webkit-appearance: none;
       border-radius: 0px;
       padding: 12px 5px 12px 15px;
-      color: @light_gray;
+      color: $light_gray;
       height: 47px;
-      caret-color: @cursor;
+      caret-color: $cursor;
 
       &:-webkit-autofill {
-        box-shadow: 0 0 0px 1000px @bg inset !important;
-        -webkit-text-fill-color: @cursor !important;
+        box-shadow: 0 0 0px 1000px $bg inset !important;
+        -webkit-text-fill-color: $cursor !important;
       }
     }
   }
@@ -99,10 +99,10 @@ body{
 }
 </style>
 
-<style lang="less" scoped>
-@bg: #2d3a4b;
-@dark_gray: #889aa4;
-@light_gray: #eee;
+<style lang="scss" scoped>
+$bg: #2d3a4b;
+$dark_gray: #889aa4;
+$light_gray: #eee;
 .app-login {
   min-height: 100%;
   width: 100%;
@@ -133,7 +133,7 @@ body{
     z-index: 3;
     .title {
       font-size: 32px;
-      color: @light_gray;
+      color: $light_gray;
       margin: 20px auto 30px auto;
       text-align: center;
       font-weight: normal;
@@ -144,7 +144,7 @@ body{
     right: 10px;
     top: 7px;
     font-size: 16px;
-    color: @dark_gray;
+    color: $dark_gray;
     cursor: pointer;
     user-select: none;
   }
