@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhello_world"]=self["webpackChunkhello_world"]||[]).push([[654],{1654:function(t,e,n){n.r(e),n.d(e,{default:function(){return i}});var l=function(){var t=this,e=t._self._c;return e("div",{staticClass:"app-container"},[t._v(" 测试页面-222222bbbbb ")])},r=[],a={name:"Documentation",data(){return{articleList:[]}}},u=a,s=n(1001),c=(0,s.Z)(u,l,r,!1,null,"6e409388",null),i=c.exports}}]);
+//# sourceMappingURL=654.2878632f.js.map
